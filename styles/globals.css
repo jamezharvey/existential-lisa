@@ -2,6 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -15,12 +16,50 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.box {
+  width: 300px;
+  margin: 50px auto;
+  background: #4ea9b7;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: arial;
+  position: relative;
+  border-radius: 10px;
+}
+
+.sb1:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #4ea9b7;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #4ea9b7;
+  border-bottom: 10px solid transparent;
+  right: -20px;
+  top: 40px;
+}
+
+.lisaContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 30px;
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+
+.headerContainer {
+  width: 100%;
+  height: 150px;
+  background-color: #4ea9b7;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
