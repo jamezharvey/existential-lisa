@@ -6,7 +6,7 @@ This is an app in which you ask questions to a rather existential Lisa Simpson a
 
 1. If you don’t have Node.js installed, [install it from here](https://nodejs.org/en/)
 
-2. Clone this repository [GitHub](https://github.com/hazemfahad/AngryShakespeare.git)
+2. Clone this repository [GitHub](https://github.com/jamezharvey/existential-lisa)
 
 3. Navigate into the project directory
 
